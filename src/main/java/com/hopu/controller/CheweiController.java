@@ -40,6 +40,8 @@ public class CheweiController {
         System.out.println("测试远程push");
 
         System.out.println("测试远程push1");
+        
+        System.out.println("模拟同事修改代码后推送到远程库");
         return line+"";
     }
 }
