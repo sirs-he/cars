@@ -32,6 +32,7 @@ public class CheweiController {
     @CrossOrigin
     public String addChewei(Chewei chewei){
        int line = service.addChewei(chewei);
+        System.out.println(line);
         return line+"";
     }
 }
