@@ -35,6 +35,7 @@ public class CheweiController {
         System.out.println(line);
         System.out.println("hot-fix分支，临时修改的代码");
         System.out.println("master 提交冲突代码");
+        System.out.println("hot-fix 提交冲突代码");
         return line+"";
     }
 }
