@@ -31,8 +31,9 @@ public class CheweiController {
     @ResponseBody
     @CrossOrigin
     public String addChewei(Chewei chewei){
-       int line = service.addChewei(chewei);
+        int line = service.addChewei(chewei);
         System.out.println(line);
+        System.out.println("hot-fix分支，临时修改的代码");
         return line+"";
     }
 }
